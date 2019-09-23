@@ -37,7 +37,7 @@ Shipped Android Version | Android 7.0 (Nougat)
 3. Клонирование дерева, ядра, vendor.\
 `git clone https://github.com/artemzhykovskiii/android_device_philips_S327 -b cm-14.1 device/philips/S327` - Device tree.\
 `git clone https://github.com/artemzhykovskiii/android_kernel_philips_S327 kernel/philips/S327` - Kernel source.\
-`git clone https://github.com/artemzhykovskiii/android_vendor_philips_S327 -b cm-14.1 device/philips/S327` - Vendor tree.
+`git clone https://github.com/artemzhykovskiii/android_vendor_philips_S327 -b cm-14.1 vendor/philips/S327` - Vendor tree.
 4. Применение патчей.\
 `./device/philips/S327/patches/lineage/apply.sh` - Apply patches.\
 `./device/philips/S327/patches/lineage/check.sh` - Check patches.\
