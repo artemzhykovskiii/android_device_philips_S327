@@ -33,7 +33,7 @@ Shipped Android Version | Android 7.0 (Nougat)
 1. Создать папку с исходниками.\
 `mkdir $SOURCE_DIR && cd $SOURCE_DIR`
 2. Инициализация repo\
-`repo init -u git://github.com/LineageOS/android.git -b cm-14.1 --depth=1 && repo sync -c --no-clone-bundle`
+`repo init -u git://github.com/LineageOS/android.git -b cm-14.1 --depth=1 && repo sync -c --no-clone-bundle`\
 For RR: `repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b nougat --depth=1 && repo sync -c --no-clone-bundle`
 3. Клонирование дерева, ядра, vendor.\
 `git clone https://github.com/artemzhykovskiii/android_device_philips_S327 -b cm-14.1 device/philips/S327` - Device tree.\
