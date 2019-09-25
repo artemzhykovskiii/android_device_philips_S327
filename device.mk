@@ -33,5 +33,5 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 # Inherit device specific proprietary vendor configuration
 $(call inherit-product, vendor/philips/S327/S327-vendor.mk)
 
-# Inherit Lineage vendor configuration
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit XOSP vendor configuration
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)

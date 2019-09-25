@@ -15,7 +15,7 @@ for dir in $dirs ; do
 	cd $rootdirectory
 	cd $dir
         echo "\n${RED}Checking ${NC}$dir ${RED}patches...${NC}\n"
-	git apply -v $rootdirectory/device/philips/S327/patches/lineage/$dir/*.patch
+	git apply -v --check $rootdirectory/device/philips/S327/patches/xosp/$dir/*.patch
 done
 
 # -----------------------------------
